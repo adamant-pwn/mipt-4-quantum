@@ -25,7 +25,7 @@
 \fancyhead[RO]{section: \bfseries \rightmark}
 \fancyhead[LE]{\bfseries \leftmark}
 \fancyhead[LO, RE]{}
-\fancyfoot[R]{subject: Квантовая Механика, 6-7 семестр}
+\fancyfoot[R]{subject: РљРІР°РЅС‚РѕРІР°СЏ РњРµС…Р°РЅРёРєР°, 6-7 СЃРµРјРµСЃС‚СЂ}
 \fancyfoot[L]{page: \thepage}
 \fancyfoot[C]{}
 %\headrulewidth 0.4pt
@@ -46,7 +46,7 @@
 \setlength{\oddsidemargin}{-0.3in}
 \setlength{\evensidemargin}{-0.3in}
 \setlength{\textwidth}{7in}
-%Найти теги, которые отвечают за размер колонтитулов и разрешают переносы строки
+%РќР°Р№С‚Рё С‚РµРіРё, РєРѕС‚РѕСЂС‹Рµ РѕС‚РІРµС‡Р°СЋС‚ Р·Р° СЂР°Р·РјРµСЂ РєРѕР»РѕРЅС‚РёС‚СѓР»РѕРІ Рё СЂР°Р·СЂРµС€Р°СЋС‚ РїРµСЂРµРЅРѕСЃС‹ СЃС‚СЂРѕРєРё
 
 \def \vs    {\vspace {20pt}}
 \def \LRA   {\quad \Leftrightarrow \quad}
@@ -111,44 +111,44 @@
 \let \pa	  \partial
 \let \lra   \leftrightarrow
 
-%\newcommand {\Task}   [1] {\par \vspace {12pt} \textbf {Задача #1} \par}
+%\newcommand {\Task}   [1] {\par \vspace {12pt} \textbf {Р—Р°РґР°С‡Р° #1} \par}
 \newcommand {\Picture}[1] {   \centerline{\includegraphics[width = 0.6\textwidth]{pic/#1.png}} }
 
-%\newtheorem {Lem}{Лемма}
-\newtheorem {Theorem}{Теорема}
-\newtheorem {Corollary}{Следствие}
-\newtheorem {Rk}{Замечание}
-%\newtheorem {Proof}{Доказательство}
+%\newtheorem {Lem}{Р›РµРјРјР°}
+\newtheorem {Theorem}{РўРµРѕСЂРµРјР°}
+\newtheorem {Corollary}{РЎР»РµРґСЃС‚РІРёРµ}
+\newtheorem {Rk}{Р—Р°РјРµС‡Р°РЅРёРµ}
+%\newtheorem {Proof}{Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ}
 \renewcommand \theCorollary {\normalfont}
 %\renewcommand \theProof {\normalfont}
-\newcommand {\Th}[0]        {\textbf{Теорема.} }
+\newcommand {\Th}[0]        {\textbf{РўРµРѕСЂРµРјР°.} }
 \newcommand {\col}[3]       { \left(\begin{array}{c} #1 \\ #2 \\ #3\end{array}\right) }
-\newcommand {\Rem}[0]       {\textbf{Замечание.} }
-\newcommand {\Proof}[0]     {\textbf{Доказательство.} \nopagebreak }
-%\newcommand {\Pic}[1]       {\par\centerline{[ Тут будет рисунок ] }\par }
-\newcommand {\PicStub}[1]   {\par\vspace{3.2cm}\centerline{[ Тут нет рисунка, нарисуйте его сами ] }\par }
+\newcommand {\Rem}[0]       {\textbf{Р—Р°РјРµС‡Р°РЅРёРµ.} }
+\newcommand {\Proof}[0]     {\textbf{Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕ.} \nopagebreak }
+%\newcommand {\Pic}[1]       {\par\centerline{[ РўСѓС‚ Р±СѓРґРµС‚ СЂРёСЃСѓРЅРѕРє ] }\par }
+\newcommand {\PicStub}[1]   {\par\vspace{3.2cm}\centerline{[ РўСѓС‚ РЅРµС‚ СЂРёСЃСѓРЅРєР°, РЅР°СЂРёСЃСѓР№С‚Рµ РµРіРѕ СЃР°РјРё ] }\par }
 \newcommand {\Pic}[1]       { \par\centerline{\includegraphics[height = 0.24\textheight]{#1}}\par }
 \newcommand {\Picw}[2]      { \par\centerline{\includegraphics[height = #2\textwidth]{#1}}\par }
-\newcommand {\Def}[0]       {\textbf{Определение.} }
-\newcommand {\Task}[0]      {\textbf{Задача. }}
-\newcommand {\Lem}[0]	      {\textbf{Лемма. }}
-\newcommand {\Quest}[1]     {\textbf{Вопрос. #1}\par}
-\newcommand {\Ans}          {\textbf{Ответ. }}
-\newcommand {\Lyrdig}       {\textbf{Лирическое отступление: }}
-\newcommand {\Reminder}     {\textbf{Напоминание. }}
-\newcommand {\Sol}          {\textbf{Решение. }}
-\newcommand {\Excse}        {\textbf{Упражнение. }}
-\newcommand {\Example}      {\textbf{Пример. }}
-\newcommand {\Cor}	        {\textbf{Следствие. }}
-\newcommand {\Assume}	      {\textbf{Предположение. }}
-\newcommand {\Stat}	        {\textbf{Утверждение. }}
-\newcommand {\Ex}	          {\textbf{Упражнение, }}
-\newcommand {\Exercise}	    {\textbf{Упражнение. }}
+\newcommand {\Def}[0]       {\textbf{РћРїСЂРµРґРµР»РµРЅРёРµ.} }
+\newcommand {\Task}[0]      {\textbf{Р—Р°РґР°С‡Р°. }}
+\newcommand {\Lem}[0]	      {\textbf{Р›РµРјРјР°. }}
+\newcommand {\Quest}[1]     {\textbf{Р’РѕРїСЂРѕСЃ. #1}\par}
+\newcommand {\Ans}          {\textbf{РћС‚РІРµС‚. }}
+\newcommand {\Lyrdig}       {\textbf{Р›РёСЂРёС‡РµСЃРєРѕРµ РѕС‚СЃС‚СѓРїР»РµРЅРёРµ: }}
+\newcommand {\Reminder}     {\textbf{РќР°РїРѕРјРёРЅР°РЅРёРµ. }}
+\newcommand {\Sol}          {\textbf{Р РµС€РµРЅРёРµ. }}
+\newcommand {\Excse}        {\textbf{РЈРїСЂР°Р¶РЅРµРЅРёРµ. }}
+\newcommand {\Example}      {\textbf{РџСЂРёРјРµСЂ. }}
+\newcommand {\Cor}	        {\textbf{РЎР»РµРґСЃС‚РІРёРµ. }}
+\newcommand {\Assume}	      {\textbf{РџСЂРµРґРїРѕР»РѕР¶РµРЅРёРµ. }}
+\newcommand {\Stat}	        {\textbf{РЈС‚РІРµСЂР¶РґРµРЅРёРµ. }}
+\newcommand {\Ex}	          {\textbf{РЈРїСЂР°Р¶РЅРµРЅРёРµ, }}
+\newcommand {\Exercise}	    {\textbf{РЈРїСЂР°Р¶РЅРµРЅРёРµ. }}
 \newcommand \mmax[1]        {\underset{#1}{max}}
-\newcommand {\cont}         {\ непрерывно}
-\newcommand {\diff}         {\ дифференцируема}
+\newcommand {\cont}         {\ РЅРµРїСЂРµСЂС‹РІРЅРѕ}
+\newcommand {\diff}         {\ РґРёС„С„РµСЂРµРЅС†РёСЂСѓРµРјР°}
 \newcommand {\cdif}         {\cont \diff}
-\newcommand {\defn}         {\ определена\ }
+\newcommand {\defn}         {\ РѕРїСЂРµРґРµР»РµРЅР°\ }
 \newcommand {\comment}[1]   { }
 \newcommand {\point}[1]     {\textbf{#1. } }
 \newcommand {\condition}[1] {\big\{ #1 \big\}}
@@ -161,18 +161,18 @@
 \newcommand {\qu}[1]        {\bra #1 \ket} % quantum vector
 \newcommand {\uq}[1]        {\langle #1 \bra} % quantum conjugate vector
 \newcommand {\qs}[2]        {\langle #1 | #2 \rangle}%quantum scalar product
-\newcommand {\skipped}[1]   {\par {\Large \textbf{Лекция #1 пропущена. To be done.}}\\ \vs}
+\newcommand {\skipped}[1]   {\par {\Large \textbf{Р›РµРєС†РёСЏ #1 РїСЂРѕРїСѓС‰РµРЅР°. To be done.}}\\ \vs}
 \newcommand {\invest}[1]    {\par {\Large \textbf{Lection #1 under investigation!}}\\ \vs}
 \newcommand {\lecture}[1]   {  }
-%\newcommand {\lecture}[1]   { \par \begin{flushright}\textit{Лекция #1}\end{flushright} }
+%\newcommand {\lecture}[1]   { \par \begin{flushright}\textit{Р›РµРєС†РёСЏ #1}\end{flushright} }
 \newcommand {\xymatrix}[4]  { \left[ \begin{array}{cc} #1 & #2 \\ #3 & #4 \end{array} \right] }
 \newcommand {\df} [2]       {\dfrac{#1}{#2}}
 \newcommand {\Sergey}[0] {}
 \newcommand {\Alex}[0]   {}
 \newcommand {\Lector}[0] {}
-%\newcommand {\Sergey}[0]    { \textit{(Прим. наборщика)} }
-%\newcommand {\Alex}[0]      { \textit{(Прим. редколлегии)} }
-%\newcommand {\Lector}[0]    { \textit{(Прим. лектора)} }
+%\newcommand {\Sergey}[0]    { \textit{(РџСЂРёРј. РЅР°Р±РѕСЂС‰РёРєР°)} }
+%\newcommand {\Alex}[0]      { \textit{(РџСЂРёРј. СЂРµРґРєРѕР»Р»РµРіРёРё)} }
+%\newcommand {\Lector}[0]    { \textit{(РџСЂРёРј. Р»РµРєС‚РѕСЂР°)} }
 \newcommand {\wikiq}[1]     { $^{\text{[#1]}}$ }
 \newcommand {\set}[1]       { \left\{ #1 \right\} }
 \newcommand {\qtri}[3]      {{ \uq{#1}#2\qu{#3} }}
@@ -196,6 +196,6 @@
 \makeatother
 
 \setcounter{tocdepth}{1}
-\renewcommand\contentsname{Оглавление}
+\renewcommand\contentsname{РћРіР»Р°РІР»РµРЅРёРµ}
 
 %\newcommand{\frc}[2]{\raisebox{0.05em}{$#1$}\!/\raisebox{-0.05em}{$#2$}}
